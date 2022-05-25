@@ -1,0 +1,22 @@
+{
+  "name": "mercado_liebre",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leandro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroOJeda/DH_mercadoLiebre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeandroOJeda/DH_mercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/LeandroOJeda/DH_mercadoLiebre#readme",
+  "description": ""
+}
