@@ -59,9 +59,9 @@ header ul li a {
 
 
 header .form .input {
-    width: 90%;
-    padding: 2px;
-    height: 25px;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
     background-color: #FFF;
     border: none;
     outline: none;
@@ -187,6 +187,77 @@ article div.main-article {
 
 }
 
+.login h1{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.login div{
+    width: 90vw;
+}
+
+.login div input{
+    width: 100%;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 15px 5px;
+    padding: 5px;
+}
+
+.login div a .button{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.register h1{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.register h4{
+    margin: 15px 0;
+}
+
+.register div{
+    width: 90vw;
+}
+
+.register div input{
+    width: 100%;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 15px 5px;
+    padding: 5px;
+}
+
+.register div a .button{
+    width: 45%;
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+div .radio input{
+    margin: 0 7px;
+    padding: 0;
+    font-size: 20px;
+    width: 20px;
+    height: 15px;
+}
+
+div .check input{
+    margin: 3px 7px;
+    padding: 0;
+    font-size: 20px;
+    width: 20px;
+    height: 15px;
+}
+
 @media (min-width: 361px) {
     main section article .description {
         display: block;
@@ -215,6 +286,7 @@ article div.main-article {
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
+        margin: 0 2vw;
     }
     
     header div.logo {
@@ -243,6 +315,51 @@ article div.main-article {
     header .form .submit {
         right: 0;
     }
+
+    .register h1{
+        margin: 30px 0;
+        text-align: center;
+    }
+    
+    .register h4{
+        margin: 15px 0;
+    }
+    
+    .register div{
+        width: 90vw;
+    }
+    
+    .register div input{
+        width: 50%;
+        height: 30px;
+        border: transparent;
+        border-radius: 5px;
+        margin: 15px 5px;
+        padding: 5px;
+    }
+    
+    .register div a .button{
+        width: 46%;
+        background-color: #0044AA;
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 14px;
+    }
+    
+    div .radio input{
+        width: auto;
+        margin: 0 7px;
+        padding: 0;
+        height: 15px;
+    }
+    
+    div .check input{
+        margin: 0 7px;
+        padding: 0;
+        font-size: 20px;
+        width: 20px;
+        height: 15px;
+    }
   
     
 }
@@ -268,10 +385,29 @@ article div.main-article {
         margin: 0 10px;
     }
 
+    .register div input{
+        width: 30%;
 
-    
+    }
 
+    .register div a .button{
+        width: 13%;
+    }
+
+    div .radio input{
+        width: auto;
+        margin: 0 7px;
+        padding: 0;
+        height: 15px;
+    }
     
-    
-    
+    div .check input{
+        margin: 0 7px;
+        padding: 0;
+        font-size: 20px;
+        width: 20px;
+        height: 15px;
+    }
+
+
 }
