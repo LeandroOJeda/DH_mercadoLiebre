@@ -129,11 +129,6 @@ h3,
     color: #666;
 }
 
-.description {
-    display: none;
-    margin-top: 20px;
-}
-
 section.banner img {
     width: 100%;
 }
@@ -146,6 +141,7 @@ main {
 main section article {
     background-color: #fff;
     margin: 10px 0px;
+    transition: all 0.4s;
 }
 
 main section article img {
@@ -170,6 +166,7 @@ main section article i {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: all 0.4s;
 }
 
 main section h3 {
@@ -186,7 +183,6 @@ article div.main-article {
     position: relative;
 
 }
-
 .login h1{
     margin: 30px 0;
     text-align: center;
@@ -210,6 +206,11 @@ article div.main-article {
     border-radius: 5px;
     color: #FFF;
     font-size: 14px;
+    transition: all 0.3s;
+}
+
+.login div a .button:hover{
+    background-color: #0022AA;
 }
 
 .register h1{
@@ -258,14 +259,55 @@ div .check input{
     height: 15px;
 }
 
+footer {
+    text-align: center;
+    margin: 60px 25px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+footer p {
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer a i {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #1259c3;
+    box-sizing: content-box;
+
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
 @media (min-width: 361px) {
     main section article .description {
+        display: none;
+    }
+
+    main section article:hover .description{
         display: block;
     }
 
-    main section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    main section article{
         width: 45%;
+    }
+
+    main section article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article:hover i{
+        transform: rotateZ(90deg);
     }
 
     .produdcts {
@@ -360,6 +402,10 @@ div .check input{
         width: 20px;
         height: 15px;
     }
+
+    footer a i:hover{
+        color: #0022AA;
+    }
   
     
 }
@@ -407,6 +453,13 @@ div .check input{
         font-size: 20px;
         width: 20px;
         height: 15px;
+    }
+
+    footer ul li{
+        text-decoration: none;
+        list-style: none;
+        width: 33%;
+        padding: 15px;
     }
 
 
