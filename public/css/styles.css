@@ -201,7 +201,7 @@ article div.main-article {
     padding: 5px;
 }
 
-.login div a .button{
+.login div .button{
     background-color: #0044AA;
     border-radius: 5px;
     color: #FFF;
@@ -209,7 +209,7 @@ article div.main-article {
     transition: all 0.3s;
 }
 
-.login div a .button:hover{
+.login div .button:hover{
     background-color: #0022AA;
 }
 
@@ -307,7 +307,7 @@ footer ul li{
     }
 
     main section article:hover i{
-        transform: rotateZ(90deg);
+        transform: rotateZ(-90deg);
     }
 
     .produdcts {
@@ -360,7 +360,7 @@ footer ul li{
 
     .register h1{
         margin: 30px 0;
-        text-align: center;
+        text-align: left;
     }
     
     .register h4{
@@ -380,7 +380,7 @@ footer ul li{
         padding: 5px;
     }
     
-    .register div a .button{
+    .register div .button{
         width: 46%;
         background-color: #0044AA;
         border-radius: 5px;
@@ -405,6 +405,13 @@ footer ul li{
 
     footer a i:hover{
         color: #0022AA;
+    }
+
+    .login div input{
+        width: 40%;
+    }
+    .login div {
+        text-align: center;
     }
   
     
@@ -436,8 +443,8 @@ footer ul li{
 
     }
 
-    .register div a .button{
-        width: 13%;
+    .register div .button{
+        width: 15%;
     }
 
     div .radio input{
